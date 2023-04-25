@@ -3,7 +3,6 @@ import Slide from "../Slide/Slide"
 import Card from "./Card"
 import CardTwo from "./CardTwo"
 import * as React from "react";
-
 interface BlogData {
   id: number;
   titleOne: string;
@@ -26,8 +25,8 @@ const BlogHome: React.FC = () => {
       paraTwo: "New Ways to Wear Denim Belt Bags make a Comeback",
       name: "By Jasmin Smith",
       subTitle: "How to Shop Mindfully",
-      qrCode: "/images/qrcode.png",
-      cover: "/Images/blog5.jpg",
+      qrCode: "./images/qrcode.png",
+      cover: "./Images/blog5.jpg",
     },
   ]
   return (
