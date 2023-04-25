@@ -1,13 +1,13 @@
 const Cdata = [
   {
     id: 1,
-    cover: "/Images/card-1.jpg",
+    cover: "./Images/card-1.jpg",
     category: "lifestyle",
     title: "Best Places to visit in the World",
   },
   {
     id: 2,
-    cover: "/Images/card-2.jpg",
+    cover: "./Images/card-2.jpg",
     category: "lifestyle",
     title: "How much will it Cost to Travel?",
   },
